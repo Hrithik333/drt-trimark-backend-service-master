@@ -1,0 +1,14 @@
+version: "3.2"
+services:
+  rabbitmq:
+    image: rabbitmq:3.10-management
+    container_name: 'rabbitmq'
+    ports:
+        - 5672:5672
+        - 15672:15672
+
+  oa-ingestion-service:
+    build: .
+    container_name: 'oa-ingestion-service'
+    ports:
+      - 1135:1135

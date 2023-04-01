@@ -1,0 +1,16 @@
+flask
+flask-Cors
+itsdangerous
+Jinja2
+MarkupSafe
+pymongo
+dnspython
+six
+Werkzeug
+flask-bcrypt
+pyjwt==2.0.0
+python-dateutil
+Flask-Caching
+xlsxwriter
+mysql
+mysql-connector-python
